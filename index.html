@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <script type="text/javascript" defer src="js.js"> </script>
+
+</head>
+<body>
+Тип товара:
+<form>
+    <select name="prodType">
+        <option value="0">Пылесос</option>
+        <option value="1">Фен</option>
+        <option value="2">Утюг</option>
+    </select>
+    <div id="radios">
+        <label><input type="radio" name="prodOptions" value="option1"> Белый </label>
+        <label><input type="radio" name="prodOptions" value="option2"> Синий </label>
+        <label><input type="radio" name="prodOptions" value="option3"> Красный</label>
+    </div>
+    <div id="checkboxes">
+        <label><input type="checkbox" name="prop1"> Стрелять огнем</label>
+        <label><input type="checkbox" name="prop2"> Стрелять кислотой</label>
+    </div>
+    <div id="prodPrice">  </div>
+    <input type="text" name ="field2" placeholder="Количество товара">
+    <button id ="butt" onclick="return click1();"> Подтвердить </button>
+</form>
+<div id="result"> </div>
+</body>
+</html>
