@@ -68,6 +68,9 @@ function updatePrice() {
     else
         checkDiv.style.display = "none";
     let prodPrice = document.getElementById("prodPrice");
+    if (select.value == "0") {
+        price = 3000;
+    }
     prodPrice.innerHTML = price + " рублей";
 }
 window.addEventListener('DOMContentLoaded', function (event) {
